@@ -11,3 +11,93 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  mesmerize-child
 */
+
+.navigation-bar.bordered{
+  background-color: white;
+  border: none !important;
+
+}
+
+/* farve på teksten i menupunkter på ikke forside template */
+.navigation-bar.bordered a{
+  color: black;
+}
+
+.copyright{
+  visibility: hidden;
+  height: 0;
+}
+
+.footer-content-lists .footer-content{
+  background-color: #2d2d2d;
+}
+
+.footer-content-lists .footer-column-black{
+  background-color: #1e1e1e;
+}
+
+.footer-content-lists .footer-column-black div .footer-logo{
+  margin: 0;
+}
+
+.footer-content-lists .footer-column-black div .footer-social-icons{
+  margin: 0;
+
+}
+
+/* drop shadow på widgets og blogposts og blogpost thumbnails på forsiden */
+.widget.widget_search, .widget.widget_recent_entries, .widget.widget_categories, .post-list .post-list-item .card, .post-content.card{
+  box-shadow: 2px 2px 18px;
+  border: none;
+}
+/* !!!!!!!!!! Husk browseroptimere shadow !!!!!!!!!!!!!!!! */
+
+.footer-content .widget.widget_recent_entries{
+  box-shadow: none;
+}
+
+.contact-form-wrapper input[type=text], .contact-form-wrapper input[type=email], .contact-form-wrapper input[type=url], .contact-form-wrapper input[type=tel], .contact-form-wrapper input[type=date], .contact-form-wrapper select, .contact-form-wrapper textarea{
+  border: 2px solid #03a9f4;
+  box-shadow: none;
+}
+
+.contact-form-wrapper input[type=submit]{
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.content-section .content-section-spacing{
+  width: 100%;
+}
+
+input, textarea, select{
+  border: 2px solid #03a9f4;
+  box-shadow: none;
+}
+
+textarea{
+  height: 120px;
+}
+
+input[type=submit]{
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+  color: white;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 20px;
+}
+
+label{
+  text-transform: uppercase;
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+
+.button{
+  background-color: pink;
+}
