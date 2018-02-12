@@ -75,6 +75,22 @@
 input, textarea, select{
   border: 2px solid #03a9f4;
   box-shadow: none;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -moz-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -moz-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-flex-basis: 50%;
+  -moz-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  max-width: 50%;
 }
 
 textarea{
@@ -100,4 +116,8 @@ label{
 
 .button{
   background-color: pink;
+}
+
+input.search-field{
+
 }
