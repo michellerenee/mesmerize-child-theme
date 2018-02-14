@@ -15,6 +15,7 @@
 .navigation-bar.bordered{
   background-color: white;
   border: none !important;
+  box-shadow: 0 0 18px #d8d8d8;
 
 }
 
@@ -47,7 +48,7 @@
 
 /* drop shadow på widgets og blogposts og blogpost thumbnails på forsiden */
 .widget.widget_search, .widget.widget_recent_entries, .widget.widget_categories, .post-list .post-list-item .card, .post-content.card{
-  box-shadow: 2px 2px 18px;
+  box-shadow: 2px 2px 18px #e0e1e1;
   border: none;
 }
 /* !!!!!!!!!! Husk browseroptimere shadow !!!!!!!!!!!!!!!! */
@@ -57,7 +58,7 @@
 }
 
 .contact-form-wrapper input[type=text], .contact-form-wrapper input[type=email], .contact-form-wrapper input[type=url], .contact-form-wrapper input[type=tel], .contact-form-wrapper input[type=date], .contact-form-wrapper select, .contact-form-wrapper textarea{
-  border: 2px solid #03a9f4;
+  border: 2px solid dodgerblue;
   box-shadow: none;
 }
 
@@ -73,24 +74,8 @@
 }
 
 input, textarea, select{
-  border: 2px solid #03a9f4;
+  border: 2px solid dodgerblue;
   box-shadow: none;
-  -webkit-box-flex: 0;
-  -webkit-flex-grow: 0;
-  -moz-flex-grow: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -webkit-flex-shrink: 0;
-  -moz-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  padding-right: 15px;
-  padding-left: 15px;
-  -webkit-flex-basis: 50%;
-  -moz-flex-basis: 50%;
-  -ms-flex-preferred-size: 50%;
-  flex-basis: 50%;
-  max-width: 50%;
 }
 
 textarea{
@@ -118,6 +103,47 @@ label{
   background-color: pink;
 }
 
-input.search-field{
+form.search-form input {
+  border: 2px solid #f1f1f1;
+  border-radius: 0;
+}
 
+.post-item{
+  box-shadow: 2px 2px 18px #e0e1e1;
+  border: none;
+}
+
+.post-content-inner{
+  color: #252525;
+}
+
+.post-meta a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.comments-form{
+  background-color: #f1f1f1;
+  padding-bottom: 30px;
+}
+
+.comment-list li.comment{
+  color: black;
+}
+
+.comment-list li.comment.even{
+  background-color: #f4f4f4;
+}
+
+.comment-list li.comment.byuser{
+  background-color: rgba(133,255,0,0.20);
+  border-color: yellowgreen;
+}
+
+.widget ul li a{
+  color: dodgerblue;
+}
+
+body div.twoJGallery .twoJGalleryCSSwrap{
+  display: none;
 }
